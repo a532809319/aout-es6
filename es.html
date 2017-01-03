@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>let与var的区别</title>
+ <script src="./traceur.js"></script>
+<script src="./bootstrap.js"></script> 
+<script type="text/traceur">
+obj={a:1,b:2,c:{
+	d:5
+}}
+let {a,b,c:{
+	d
+}}=obj;
+console.log(d);
+</script>
+</head> 
+<body>
+
+</body>
+</html>
